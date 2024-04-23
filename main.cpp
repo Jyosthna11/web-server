@@ -3,7 +3,7 @@
 int main() {
     Server server;
     server.setPort(8080);
-    server.setDocumentRoot("html");
+    server.setDocumentRoot("www");
 
     if (!server.start()) {
         std::cerr << "Failed to start the server." << std::endl;
